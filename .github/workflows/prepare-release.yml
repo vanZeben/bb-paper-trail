@@ -1,0 +1,101 @@
+name: Prepare release
+
+on:
+  workflow_dispatch:
+    inputs:
+      bump:
+        description: Version bump
+        type: choice
+        options: [patch, minor, major]
+        default: patch
+
+permissions:
+  contents: write
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Compute the next version
+        id: version
+        env:
+          BUMP: ${{ inputs.bump }}
+        run: |
+          set -euo pipefail
+          current=$(node -p "require('./package.json').version")
+          next=$(CURRENT="$current" node -e '
+            const m = /^(\d+)\.(\d+)\.(\d+)$/.exec(process.env.CURRENT);
+            if (!m) { console.error("package.json version " + process.env.CURRENT + " is not a plain X.Y.Z"); process.exit(1); }
+            let [a, b, c] = m.slice(1).map(Number);
+            const bump = process.env.BUMP;
+            if (bump === "major") { a++; b = 0; c = 0; } else if (bump === "minor") { b++; c = 0; } else { c++; }
+            console.log(`${a}.${b}.${c}`);
+          ')
+          echo "current=$current" >> "$GITHUB_OUTPUT"
+          echo "next=$next" >> "$GITHUB_OUTPUT"
+
+      - name: Refuse if the release already exists
+        env:
+          NEXT: ${{ steps.version.outputs.next }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          if git ls-remote --exit-code --tags origin "refs/tags/v${NEXT}" >/dev/null 2>&1; then
+            echo "::error::Tag v${NEXT} already exists. Pick a different bump or delete the stale release and tag."
+            exit 1
+          fi
+          if git ls-remote --exit-code --heads origin "release/v${NEXT}" >/dev/null 2>&1; then
+            echo "::error::Branch release/v${NEXT} already exists. Merge or delete it first."
+            exit 1
+          fi
+          if gh release view "v${NEXT}" >/dev/null 2>&1; then
+            echo "::error::A release for v${NEXT} already exists."
+            exit 1
+          fi
+
+      # Pull requests opened with the built-in token don't trigger workflows, so the branch is
+      # pushed and the summary links the pull request for a maintainer to open (CI then runs).
+      - name: Bump the version and push the branch
+        env:
+          NEXT: ${{ steps.version.outputs.next }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "release/v${NEXT}"
+          npm version "$NEXT" --no-git-tag-version
+          git add package.json package-lock.json
+          git commit -m "Release v${NEXT}"
+          git push origin "release/v${NEXT}"
+
+      - name: Create the draft release
+        env:
+          NEXT: ${{ steps.version.outputs.next }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "v${NEXT}" --draft --generate-notes --target main --title "v${NEXT}"
+
+      - name: Summary
+        env:
+          NEXT: ${{ steps.version.outputs.next }}
+          CURRENT: ${{ steps.version.outputs.current }}
+        run: |
+          url="${{ github.server_url }}/${{ github.repository }}/compare/main...release/v${NEXT}?expand=1"
+          {
+            echo "## Release v${NEXT} prepared (from ${CURRENT})"
+            echo
+            echo "1. [Open the pull request](${url}) **Release v${NEXT}**, wait for CI, and merge it."
+            echo "2. Update CHANGELOG.md for the release if you haven't."
+            echo "3. Open the draft release **v${NEXT}**, edit the notes if you like, and **Publish release**."
+            echo
+            echo "Publishing runs the Release workflow, which checks, builds and attaches the build."
+            echo "The marketplace listing is a separate manual step: see docs/RELEASING.md."
+          } >> "$GITHUB_STEP_SUMMARY"

@@ -3,7 +3,7 @@
 All notable changes to Paper Trail are recorded here. The format follows
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
-## Unreleased
+## 0.1.0 - unreleased
 
 ### Added
 
@@ -20,3 +20,7 @@ All notable changes to Paper Trail are recorded here. The format follows
 - Data export and import as a JSON bundle.
 - The `bb paper-trail` command (`status`, `day`, `week`, `backfill`, `doctor`, `connectors`, `packet`, `export`) and a skill for agents.
 - Plugin settings for scheduled capture, time zone, capture host, provider and models, worker permission mode, parallelism, timeouts, schedules, enabled sources and graph length.
+
+### Release
+
+- Release automation: a Prepare release workflow (version-bump branch and draft release) and a Release workflow that checks, builds and attaches the build to the GitHub release. Marketplace sync is a documented manual step with a tested generator script (`scripts/marketplace-sync.mjs`). See `docs/RELEASING.md`.
