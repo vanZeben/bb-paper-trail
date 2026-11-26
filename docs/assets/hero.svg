@@ -1,0 +1,252 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="t d">
+  <title id="t">Paper Trail: every claim has a receipt</title>
+  <desc id="d">Paper Trail is a private, evidence-backed contribution graph of your engineering work, for performance-review conversations. The picture shows a grid of weeks by weekdays coloured by day rating (exceeds, meets, needs improvement, no data), a selected week 47 with a receipt-style popover reading Exceeds, 3 shipped, 2 decisions and evidence ids, and a side panel with the week's intent and four commitments marked Hit, Hit, Partial and Missed, with a plan-accuracy trend. All data is fictional.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1214"/><stop offset="1" stop-color="#14201f"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#56706c"/></marker>
+    <marker id="arrowA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2fd0b4"/></marker>
+  </defs>
+  <rect width="1280" height="640" rx="20" fill="url(#bg)"/>
+  <g font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <g transform="translate(48 40) scale(1.1)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 2h40a2 2 0 0 1 2 2v54l-5-4-5 4-5-4-5 4-5-4-5 4-5-4-5 4-5-4V4a2 2 0 0 1 2-2z" fill="#14201f" stroke="#2fd0b4" stroke-width="3"/>
+      <path d="M12 38l8-8 7 5 10-13" stroke="#f0f6f4" stroke-width="3"/>
+      <circle cx="37" cy="22" r="3.4" fill="#2fd0b4" stroke="none"/>
+      <path d="M12 46h14" stroke="#56706c" stroke-width="3"/>
+    </g>
+    <text x="112" y="88" font-size="52" font-weight="700" fill="#f0f6f4" letter-spacing="-1">Paper Trail</text>
+    <text x="50" y="140" font-size="26" fill="#cfe0dc">Every claim has a receipt.</text>
+    <text x="50" y="178" font-size="16" fill="#8fa6a2">A private, evidence-backed contribution graph for your review conversations.</text>
+    <rect x="48" y="206" width="760" height="394" rx="18" fill="#101a1a" stroke="#263534"/>
+    <rect x="72" y="224" width="82" height="28" rx="14" fill="#2fd0b4" stroke="#2fd0b4"/>
+    <text x="113" y="243.0" font-size="14" font-weight="600" fill="#04201b" text-anchor="middle">Rating</text>
+    <rect x="162" y="224" width="62" height="28" rx="14" fill="#182524" stroke="#2e4140"/>
+    <text x="193" y="243.0" font-size="14" font-weight="600" fill="#8fa6a2" text-anchor="middle">Area</text>
+    <rect x="232" y="224" width="94" height="28" rx="14" fill="#182524" stroke="#2e4140"/>
+    <text x="279" y="243.0" font-size="14" font-weight="600" fill="#8fa6a2" text-anchor="middle">Meetings</text>
+    <rect x="334" y="224" width="92" height="28" rx="14" fill="#182524" stroke="#2e4140"/>
+    <text x="380" y="243.0" font-size="14" font-weight="600" fill="#8fa6a2" text-anchor="middle">Evidence</text>
+    <rect x="434" y="224" width="58" height="28" rx="14" fill="#182524" stroke="#2e4140"/>
+    <text x="463" y="243.0" font-size="14" font-weight="600" fill="#8fa6a2" text-anchor="middle">Plan</text>
+    <text x="106" y="286" font-size="12.5" fill="#8fa6a2">Jun</text>
+    <text x="218" y="286" font-size="12.5" fill="#8fa6a2">Jul</text>
+    <text x="330" y="286" font-size="12.5" fill="#8fa6a2">Aug</text>
+    <text x="470" y="286" font-size="12.5" fill="#8fa6a2">Sep</text>
+    <text x="582" y="286" font-size="12.5" fill="#8fa6a2">Oct</text>
+    <text x="722" y="286" font-size="12.5" fill="#8fa6a2">Nov</text>
+    <text x="92" y="326" font-size="12.5" fill="#8fa6a2" text-anchor="end">M</text>
+    <text x="92" y="354" font-size="12.5" fill="#8fa6a2" text-anchor="end">T</text>
+    <text x="92" y="382" font-size="12.5" fill="#8fa6a2" text-anchor="end">W</text>
+    <text x="92" y="410" font-size="12.5" fill="#8fa6a2" text-anchor="end">T</text>
+    <text x="92" y="438" font-size="12.5" fill="#8fa6a2" text-anchor="end">F</text>
+    <rect x="745" y="293" width="33" height="157" rx="8" fill="#2fd0b4" fill-opacity="0.1" stroke="#2fd0b4" stroke-width="1.5"/>
+    <rect x="106" y="299" width="23" height="3" rx="1.5" fill="#15803d"/>
+    <rect x="106" y="310" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="106" y="338" width="23" height="23" rx="4" fill="#f97316"/>
+    <rect x="106" y="366" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="106" y="394" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="106" y="422" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="134" y="299" width="23" height="3" rx="1.5" fill="#15803d"/>
+    <rect x="134" y="310" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="134" y="338" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="134" y="366" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="134" y="394" width="23" height="23" rx="4" fill="#f97316"/>
+    <rect x="134" y="422" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="162" y="299" width="23" height="3" rx="1.5" fill="#15803d"/>
+    <rect x="162" y="310" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="162" y="338" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="162" y="366" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="162" y="394" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="162" y="422" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="190" y="299" width="23" height="3" rx="1.5" fill="#15803d"/>
+    <rect x="190" y="310" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="190" y="338" width="23" height="23" rx="4" fill="#a3e635"/>
+    <rect x="190" y="366" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="190" y="394" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="190" y="422" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="218" y="299" width="23" height="3" rx="1.5" fill="#15803d"/>
+    <rect x="218" y="310" width="23" height="23" rx="4" fill="#a3e635"/>
+    <rect x="218" y="338" width="23" height="23" rx="4" fill="#f97316"/>
+    <rect x="218" y="366" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="218" y="394" width="23" height="23" rx="4" fill="#a3e635"/>
+    <rect x="218" y="422" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="246" y="299" width="23" height="3" rx="1.5" fill="#15803d"/>
+    <rect x="246" y="310" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="246" y="338" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="246" y="366" width="23" height="23" rx="4" fill="#243231"/>
+    <rect x="246" y="394" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="246" y="422" width="23" height="23" rx="4" fill="#a3e635"/>
+    <rect x="274" y="310" width="23" height="23" rx="4" fill="#f97316"/>
+    <rect x="274" y="338" width="23" height="23" rx="4" fill="#243231"/>
+    <rect x="274" y="366" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="274" y="394" width="23" height="23" rx="4" fill="#243231"/>
+    <rect x="274" y="422" width="23" height="23" rx="4" fill="#243231"/>
+    <rect x="302" y="299" width="23" height="3" rx="1.5" fill="#15803d"/>
+    <rect x="302" y="310" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="302" y="338" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="302" y="366" width="23" height="23" rx="4" fill="#f97316"/>
+    <rect x="302" y="394" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="302" y="422" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="330" y="310" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="330" y="338" width="23" height="23" rx="4" fill="#243231"/>
+    <rect x="330" y="366" width="23" height="23" rx="4" fill="#243231"/>
+    <rect x="330" y="394" width="23" height="23" rx="4" fill="#243231"/>
+    <rect x="330" y="422" width="23" height="23" rx="4" fill="#243231"/>
+    <rect x="358" y="310" width="23" height="23" rx="4" fill="#243231"/>
+    <rect x="358" y="338" width="23" height="23" rx="4" fill="#243231"/>
+    <rect x="358" y="366" width="23" height="23" rx="4" fill="#243231"/>
+    <rect x="358" y="394" width="23" height="23" rx="4" fill="#243231"/>
+    <rect x="358" y="422" width="23" height="23" rx="4" fill="#243231"/>
+    <rect x="386" y="299" width="23" height="3" rx="1.5" fill="#15803d"/>
+    <rect x="386" y="310" width="23" height="23" rx="4" fill="#a3e635"/>
+    <rect x="386" y="338" width="23" height="23" rx="4" fill="#243231"/>
+    <rect x="386" y="366" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="386" y="394" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="386" y="422" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="414" y="299" width="23" height="3" rx="1.5" fill="#a3e635"/>
+    <rect x="414" y="310" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="414" y="338" width="23" height="23" rx="4" fill="#a3e635"/>
+    <rect x="414" y="366" width="23" height="23" rx="4" fill="#a3e635"/>
+    <rect x="414" y="394" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="414" y="422" width="23" height="23" rx="4" fill="#a3e635"/>
+    <rect x="442" y="299" width="23" height="3" rx="1.5" fill="#f97316"/>
+    <rect x="442" y="310" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="442" y="338" width="23" height="23" rx="4" fill="#f97316"/>
+    <rect x="442" y="366" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="442" y="394" width="23" height="23" rx="4" fill="#f97316"/>
+    <rect x="442" y="422" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="470" y="299" width="23" height="3" rx="1.5" fill="#15803d"/>
+    <rect x="470" y="310" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="470" y="338" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="470" y="366" width="23" height="23" rx="4" fill="#a3e635"/>
+    <rect x="470" y="394" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="470" y="422" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="498" y="299" width="23" height="3" rx="1.5" fill="#15803d"/>
+    <rect x="498" y="310" width="23" height="23" rx="4" fill="#a3e635"/>
+    <rect x="498" y="338" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="498" y="366" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="498" y="394" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="498" y="422" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="526" y="299" width="23" height="3" rx="1.5" fill="#15803d"/>
+    <rect x="526" y="310" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="526" y="338" width="23" height="23" rx="4" fill="#243231"/>
+    <rect x="526" y="366" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="526" y="394" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="526" y="422" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="554" y="299" width="23" height="3" rx="1.5" fill="#15803d"/>
+    <rect x="554" y="310" width="23" height="23" rx="4" fill="#a3e635"/>
+    <rect x="554" y="338" width="23" height="23" rx="4" fill="#f97316"/>
+    <rect x="554" y="366" width="23" height="23" rx="4" fill="#a3e635"/>
+    <rect x="554" y="394" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="554" y="422" width="23" height="23" rx="4" fill="#243231"/>
+    <rect x="582" y="299" width="23" height="3" rx="1.5" fill="#a3e635"/>
+    <rect x="582" y="310" width="23" height="23" rx="4" fill="#243231"/>
+    <rect x="582" y="338" width="23" height="23" rx="4" fill="#a3e635"/>
+    <rect x="582" y="366" width="23" height="23" rx="4" fill="#243231"/>
+    <rect x="582" y="394" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="582" y="422" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="610" y="299" width="23" height="3" rx="1.5" fill="#15803d"/>
+    <rect x="610" y="310" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="610" y="338" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="610" y="366" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="610" y="394" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="610" y="422" width="23" height="23" rx="4" fill="#f97316"/>
+    <rect x="638" y="299" width="23" height="3" rx="1.5" fill="#f97316"/>
+    <rect x="638" y="310" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="638" y="338" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="638" y="366" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="638" y="394" width="23" height="23" rx="4" fill="#243231"/>
+    <rect x="638" y="422" width="23" height="23" rx="4" fill="#f97316"/>
+    <rect x="666" y="299" width="23" height="3" rx="1.5" fill="#15803d"/>
+    <rect x="666" y="310" width="23" height="23" rx="4" fill="#243231"/>
+    <rect x="666" y="338" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="666" y="366" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="666" y="394" width="23" height="23" rx="4" fill="#a3e635"/>
+    <rect x="666" y="422" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="694" y="299" width="23" height="3" rx="1.5" fill="#15803d"/>
+    <rect x="694" y="310" width="23" height="23" rx="4" fill="#f97316"/>
+    <rect x="694" y="338" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="694" y="366" width="23" height="23" rx="4" fill="#a3e635"/>
+    <rect x="694" y="394" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="694" y="422" width="23" height="23" rx="4" fill="#a3e635"/>
+    <rect x="722" y="299" width="23" height="3" rx="1.5" fill="#a3e635"/>
+    <rect x="722" y="310" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="722" y="338" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="722" y="366" width="23" height="23" rx="4" fill="#a3e635"/>
+    <rect x="722" y="394" width="23" height="23" rx="4" fill="#a3e635"/>
+    <rect x="722" y="422" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="750" y="299" width="23" height="3" rx="1.5" fill="#a3e635"/>
+    <rect x="750" y="310" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="750" y="338" width="23" height="23" rx="4" fill="#a3e635"/>
+    <rect x="750" y="366" width="23" height="23" rx="4" fill="#a3e635"/>
+    <rect x="750" y="394" width="23" height="23" rx="4" fill="#15803d"/>
+    <rect x="750" y="422" width="23" height="23" rx="4" fill="#a3e635"/>
+    <path d="M514 366h7v7z" fill="#f0f6f4"/>
+    <path d="M682 394h7v7z" fill="#f0f6f4"/>
+    <rect x="746" y="270" width="31" height="18" rx="5" fill="#f0f6f4"/>
+    <text x="761.5" y="283" font-size="12" font-weight="700" fill="#1b2826" text-anchor="middle">47</text>
+    <rect x="76" y="469" width="14" height="14" rx="3" fill="#a3e635"/>
+    <text x="100" y="481" font-size="13.5" fill="#cfe0dc">Exceeds</text>
+    <rect x="76" y="494" width="14" height="14" rx="3" fill="#15803d"/>
+    <text x="100" y="506" font-size="13.5" fill="#cfe0dc">Meets</text>
+    <rect x="76" y="519" width="14" height="14" rx="3" fill="#f97316"/>
+    <text x="100" y="531" font-size="13.5" fill="#cfe0dc">Needs improvement</text>
+    <rect x="76" y="544" width="14" height="14" rx="3" fill="#243231"/>
+    <text x="100" y="556" font-size="13.5" fill="#cfe0dc">No data</text>
+    <path d="M76 569h7v7z" fill="#f0f6f4"/>
+    <text x="100" y="581" font-size="13.5" fill="#cfe0dc">You changed the rating</text>
+    <path d="M753.5 451l8 -9l8 9z" fill="#f3eee0"/>
+    <path d="M484 451h300v138l-10 8l-10 -8l-10 8l-10 -8l-10 8l-10 -8l-10 8l-10 -8l-10 8l-10 -8l-10 8l-10 -8l-10 8l-10 -8l-10 8l-10 -8l-10 8l-10 -8l-10 8l-10 -8l-10 8l-10 -8l-10 8l-10 -8l-10 8l-10 -8l-10 8l-10 -8l-10 8l-10 -8z" fill="#f3eee0"/>
+    <circle cx="506" cy="476" r="6" fill="#a3e635" stroke="#1b2826" stroke-opacity="0.35"/>
+    <text x="520" y="481" font-size="16" font-weight="700" fill="#1b2826">Week 47 · Exceeds</text>
+    <path d="M500 493h268" stroke="#1b2826" stroke-opacity="0.35" stroke-dasharray="3 4"/>
+    <text x="502" y="515" font-size="14.5" fill="#1b2826">3 shipped · 2 decisions · 1 unblock</text>
+    <text x="502" y="538" font-size="12" font-weight="600" fill="#4a5c58" letter-spacing="1">EVIDENCE</text>
+    <rect x="502" y="545" width="72" height="22" rx="5" fill="#1b2826" fill-opacity="0.1"/>
+    <text x="538" y="560" font-size="12.5" fill="#1b2826" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">H1109-2</text>
+    <rect x="582" y="545" width="72" height="22" rx="5" fill="#1b2826" fill-opacity="0.1"/>
+    <text x="618" y="560" font-size="12.5" fill="#1b2826" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">H1109-7</text>
+    <rect x="662" y="545" width="72" height="22" rx="5" fill="#1b2826" fill-opacity="0.1"/>
+    <text x="698" y="560" font-size="12.5" fill="#1b2826" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">H1112-1</text>
+    <text x="746" y="560" font-size="14" fill="#1b2826" text-anchor="start">…</text>
+    <text x="502" y="589" font-size="12.5" fill="#4a5c58">Each id links to its source.</text>
+    <rect x="836" y="40" width="396" height="560" rx="18" fill="#101a1a" stroke="#263534"/>
+    <text x="860" y="76" font-size="13" font-weight="600" fill="#8fa6a2" letter-spacing="1.6">WEEK 47 · INTENT</text>
+    <text x="860" y="103.0" font-size="16" font-weight="400" fill="#e8f0ee" text-anchor="start">Land the billing migration and clear</text>
+    <text x="860" y="124.6" font-size="16" font-weight="400" fill="#e8f0ee" text-anchor="start">the blockers on the mobile release.</text>
+    <path d="M860 144h348" stroke="#263534"/>
+    <text x="860" y="174" font-size="13" font-weight="600" fill="#8fa6a2" letter-spacing="1.6">COMMITMENTS · DONE WHEN</text>
+    <rect x="860" y="196" width="66" height="26" rx="13" fill="#4ade80" fill-opacity="0.16" stroke="#4ade80" stroke-opacity="0.5"/>
+    <circle cx="875" cy="209" r="8" fill="none" stroke="#4ade80" stroke-width="2"/><path d="M871.5 209l2.5 3 4.5-5.5" fill="none" stroke="#4ade80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="888" y="214" font-size="13.5" font-weight="600" fill="#4ade80">Hit</text>
+    <text x="948" y="211" font-size="15.5" font-weight="600" fill="#e8f0ee">Ship billing migration</text>
+    <text x="948" y="232" font-size="13" fill="#8fa6a2">Done when: cutover merged, no rollback</text>
+    <rect x="860" y="258" width="66" height="26" rx="13" fill="#4ade80" fill-opacity="0.16" stroke="#4ade80" stroke-opacity="0.5"/>
+    <circle cx="875" cy="271" r="8" fill="none" stroke="#4ade80" stroke-width="2"/><path d="M871.5 271l2.5 3 4.5-5.5" fill="none" stroke="#4ade80" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="888" y="276" font-size="13.5" font-weight="600" fill="#4ade80">Hit</text>
+    <text x="948" y="273" font-size="15.5" font-weight="600" fill="#e8f0ee">Decide on the queue vendor</text>
+    <text x="948" y="294" font-size="13" fill="#8fa6a2">Done when: decision doc approved</text>
+    <rect x="860" y="320" width="78" height="26" rx="13" fill="#fbbf24" fill-opacity="0.16" stroke="#fbbf24" stroke-opacity="0.5"/>
+    <circle cx="875" cy="333" r="8" fill="none" stroke="#fbbf24" stroke-width="2"/><path d="M875 325a8 8 0 0 1 0 16z" fill="#fbbf24"/>
+    <text x="888" y="338" font-size="13.5" font-weight="600" fill="#fbbf24">Partial</text>
+    <text x="948" y="335" font-size="15.5" font-weight="600" fill="#e8f0ee">Unblock the mobile release</text>
+    <text x="948" y="356" font-size="13" fill="#8fa6a2">Done when: build is in store review</text>
+    <rect x="860" y="382" width="66" height="26" rx="13" fill="#fb923c" fill-opacity="0.16" stroke="#fb923c" stroke-opacity="0.5"/>
+    <circle cx="875" cy="395" r="8" fill="none" stroke="#fb923c" stroke-width="2"/><path d="M871.8 391.8l6.4 6.4M878.2 391.8l-6.4 6.4" fill="none" stroke="#fb923c" stroke-width="2" stroke-linecap="round"/>
+    <text x="888" y="400" font-size="13.5" font-weight="600" fill="#fb923c">Missed</text>
+    <text x="948" y="397" font-size="15.5" font-weight="600" fill="#e8f0ee">Draft the Q1 capacity plan</text>
+    <text x="948" y="418" font-size="13" fill="#8fa6a2">Done when: plan circulated to leads</text>
+    <path d="M860 442h348" stroke="#263534"/>
+    <text x="860" y="472" font-size="13" font-weight="600" fill="#8fa6a2" letter-spacing="1.6">PLAN ACCURACY · LAST 8 WEEKS</text>
+    <rect x="860" y="523" width="18" height="31.0" rx="3" fill="#2fd0b4" fill-opacity="0.45"/>
+    <rect x="884" y="518.04" width="18" height="36.0" rx="3" fill="#2fd0b4" fill-opacity="0.45"/>
+    <rect x="908" y="520.52" width="18" height="33.5" rx="3" fill="#2fd0b4" fill-opacity="0.45"/>
+    <rect x="932" y="513.08" width="18" height="40.9" rx="3" fill="#2fd0b4" fill-opacity="0.45"/>
+    <rect x="956" y="515.56" width="18" height="38.4" rx="3" fill="#2fd0b4" fill-opacity="0.45"/>
+    <rect x="980" y="508.12" width="18" height="45.9" rx="3" fill="#2fd0b4" fill-opacity="0.45"/>
+    <rect x="1004" y="510.6" width="18" height="43.4" rx="3" fill="#2fd0b4" fill-opacity="0.45"/>
+    <rect x="1028" y="507.5" width="18" height="46.5" rx="3" fill="#2fd0b4" fill-opacity="1"/>
+    <text x="1060" y="524" font-size="28" font-weight="700" fill="#e8f0ee">75%</text>
+    <text x="1060" y="546" font-size="13" fill="#8fa6a2">hit rate, trending up</text>
+  </g>
+</svg>

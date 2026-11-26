@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1340" height="520" viewBox="0 0 1340 520" role="img" aria-labelledby="t d">
+  <title id="t">Paper Trail pipeline</title>
+  <desc id="d">Your agent's connectors (calendar, meeting notes, tracker, docs, code, chat, notes, memory) are read by hidden capture threads on your host. Capture produces evidence with ids and links. Evidence feeds a day rating, then a Friday judgment. The results appear as the contribution graph, the review packet, threads with closure notes and the invisible-work radar. The plugin holds no credentials.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1214"/><stop offset="1" stop-color="#14201f"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#56706c"/></marker>
+    <marker id="arrowA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2fd0b4"/></marker>
+  </defs>
+  <rect width="1340" height="520" rx="20" fill="url(#bg)"/>
+  <g font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="48" y="44" font-size="13" font-weight="600" fill="#8fa6a2" letter-spacing="1.6">FROM YOUR CONNECTORS TO YOUR GRAPH</text>
+    <rect x="40" y="80" width="260" height="360" rx="16" fill="#101a1a" stroke="#263534"/>
+    <text x="60" y="110" font-size="13" font-weight="600" fill="#8fa6a2" letter-spacing="1.6">YOUR CONNECTORS</text>
+    <rect x="58" y="122" width="106" height="56" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="111" y="155.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">Calendar</text>
+    <rect x="176" y="122" width="106" height="56" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="229" y="155.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">Meeting notes</text>
+    <rect x="58" y="198" width="106" height="56" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="111" y="231.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">Tracker</text>
+    <rect x="176" y="198" width="106" height="56" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="229" y="231.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">Docs</text>
+    <rect x="58" y="274" width="106" height="56" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="111" y="307.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">Code</text>
+    <rect x="176" y="274" width="106" height="56" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="229" y="307.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">Chat</text>
+    <rect x="58" y="350" width="106" height="56" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="111" y="383.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">Notes</text>
+    <rect x="176" y="350" width="106" height="56" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="229" y="383.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">Memory</text>
+    <text x="170" y="428" font-size="12.5" fill="#6f8581" text-anchor="middle">read-only access, held by your agent</text>
+    <path d="M302 262 L338 262" fill="none" stroke="#2fd0b4" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+    <path d="M488 262 L524 262" fill="none" stroke="#56706c" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <path d="M672 262 L708 262" fill="none" stroke="#56706c" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <path d="M856 262 L892 262" fill="none" stroke="#56706c" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <rect x="340" y="208" width="148" height="108" rx="12" fill="#182524" stroke="#2e4140"/>
+    <rect x="340" y="218" width="4" height="88" rx="2" fill="#2fd0b4"/>
+    <text x="414" y="247.9" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">Hidden capture</text>
+    <text x="414" y="267.4" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">threads</text>
+    <text x="414" y="286.9" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">on your host</text>
+    <rect x="524" y="208" width="148" height="108" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="598" y="257.6" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">Evidence</text>
+    <text x="598" y="277.1" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">ids + links</text>
+    <rect x="708" y="208" width="148" height="108" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="782" y="267.4" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">Day rating</text>
+    <rect x="892" y="208" width="148" height="108" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="966" y="257.6" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">Friday</text>
+    <text x="966" y="277.1" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">judgment</text>
+    <text x="414" y="342" font-size="12.5" fill="#6f8581" text-anchor="middle">auto · read tools</text>
+    <text x="598" y="342" font-size="12.5" fill="#6f8581" text-anchor="middle">every item cites a source</text>
+    <text x="782" y="342" font-size="12.5" fill="#6f8581" text-anchor="middle">no tools · accept-edits</text>
+    <text x="966" y="342" font-size="12.5" fill="#6f8581" text-anchor="middle">week vs. its commitments</text>
+    <path d="M1040 262 L1076 262" fill="none" stroke="#2fd0b4" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+    <rect x="1078" y="140" width="216" height="244" rx="16" fill="#101a1a" stroke="#263534"/>
+    <text x="1098" y="170" font-size="13" font-weight="600" fill="#8fa6a2" letter-spacing="1.6">YOU GET</text>
+    <rect x="1096" y="180" width="180" height="40" rx="20" fill="#182524" stroke="#2e4140"/>
+    <text x="1186" y="205.0" font-size="14" font-weight="600" fill="#e8f0ee" text-anchor="middle">Graph</text>
+    <rect x="1096" y="229" width="180" height="40" rx="20" fill="#182524" stroke="#2e4140"/>
+    <text x="1186" y="254.0" font-size="14" font-weight="600" fill="#e8f0ee" text-anchor="middle">Review packet</text>
+    <rect x="1096" y="278" width="180" height="40" rx="20" fill="#182524" stroke="#2e4140"/>
+    <text x="1186" y="303.0" font-size="14" font-weight="600" fill="#e8f0ee" text-anchor="middle">Threads</text>
+    <rect x="1096" y="327" width="180" height="40" rx="20" fill="#182524" stroke="#2e4140"/>
+    <text x="1186" y="352.0" font-size="14" font-weight="600" fill="#e8f0ee" text-anchor="middle">Invisible-work radar</text>
+    <rect x="40" y="466" width="1260" height="34" rx="17" fill="#182524" stroke="#2e4140"/>
+    <text x="670" y="488.0" font-size="14" font-weight="400" fill="#8fa6a2" text-anchor="middle">The plugin holds no credentials: capture uses your own agent's connectors, and everything it stores stays in the local plugin database.</text>
+  </g>
+</svg>

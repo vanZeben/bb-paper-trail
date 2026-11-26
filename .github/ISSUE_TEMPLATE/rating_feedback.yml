@@ -1,0 +1,40 @@
+name: Rating feedback
+description: A day or week was rated wrong.
+labels: [rating]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please use fictional or paraphrased examples. Don't paste real names, ticket titles or chat text.
+  - type: input
+    id: target
+    attributes:
+      label: Day or week
+      description: Which rating looked wrong.
+      placeholder: 2026-11-12 or 2026-W46
+    validations:
+      required: true
+  - type: dropdown
+    id: direction
+    attributes:
+      label: What was off
+      options:
+        - Rated too high
+        - Rated too low
+        - Evidence was missed
+        - A claim was not supported by its evidence
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why you think so
+      description: What the day or week actually held, in a sentence or two, and what the rating said.
+    validations:
+      required: true
+  - type: input
+    id: coverage
+    attributes:
+      label: Source coverage
+      description: Which sources showed as ok, off or failed for that day.

@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: npm
+      # better-sqlite3 is a dev dependency, so a plain install builds or fetches its native binary.
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npx vitest run
+      - name: Install the pinned bb CLI
+        run: npm i -g "bb-app@$(cat .github/bb-version)"
+      - name: Build and check the app bundle
+        run: npm run check:app

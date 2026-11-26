@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="560" viewBox="0 0 1280 560" role="img" aria-labelledby="t d">
+  <title id="t">The Paper Trail weekly loop</title>
+  <desc id="d">The role card yields goals, and goals yield goal tasks (backlog plus suggested). On Monday the week scan combines this week's calendar, the backlog and last week's marks into a week intent and commitments, each with a done-when mark. On Friday the judge scores each commitment hit, partial or missed from the week's evidence, writes a retro and updates the accuracy trend. Those feed back into the next Monday's scan.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1214"/><stop offset="1" stop-color="#14201f"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#56706c"/></marker>
+    <marker id="arrowA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2fd0b4"/></marker>
+  </defs>
+  <rect width="1280" height="560" rx="20" fill="url(#bg)"/>
+  <g font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="48" y="44" font-size="13" font-weight="600" fill="#8fa6a2" letter-spacing="1.6">THE WEEKLY LOOP</text>
+    <path d="M268 160 L332 160" fill="none" stroke="#56706c" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <path d="M568 160 L632 160" fill="none" stroke="#56706c" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <path d="M868 160 L932 160" fill="none" stroke="#56706c" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <path d="M1050 83 L1050 115" fill="none" stroke="#56706c" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <path d="M1050 205 L1050 295" fill="none" stroke="#56706c" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <path d="M932 340 L868 340" fill="none" stroke="#56706c" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <text x="900" y="328" font-size="13" font-weight="600" fill="#8fa6a2" text-anchor="middle">all week</text>
+    <path d="M632 340 L568 340" fill="none" stroke="#56706c" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <path d="M332 340 L268 340" fill="none" stroke="#56706c" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <path d="M150 385 L150 470 L1226 470 L1226 160 L1168 160" fill="none" stroke="#2fd0b4" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+    <text x="690" y="458" font-size="14" font-weight="600" fill="#2fd0b4" text-anchor="middle">Back into next Monday's scan</text>
+    <text x="690" y="496" font-size="13" fill="#6f8581" text-anchor="middle">Last week's marks and the accuracy trend shape the next week's intent.</text>
+    <rect x="32" y="120" width="236" height="80" rx="40" fill="#182524" stroke="#2e4140"/>
+    <text x="150" y="165.4" font-size="15" font-weight="600" fill="#e8f0ee" text-anchor="middle">Role card</text>
+    <rect x="332" y="120" width="236" height="80" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="450" y="155.7" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">Goals</text>
+    <text x="450" y="175.2" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">inferred from the role card</text>
+    <rect x="632" y="120" width="236" height="80" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="750" y="155.7" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">Goal tasks</text>
+    <text x="750" y="175.2" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">backlog + suggested</text>
+    <rect x="932" y="115" width="236" height="90" rx="12" fill="#182524" stroke="#2e4140"/>
+    <rect x="932" y="125" width="4" height="70" rx="2" fill="#2fd0b4"/>
+    <text x="1050" y="145.9" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">Monday week scan</text>
+    <text x="1050" y="165.4" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">calendar + backlog +</text>
+    <text x="1050" y="184.9" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">last week's marks</text>
+    <rect x="975" y="49" width="150" height="34" rx="17" fill="#182524" stroke="#2e4140"/>
+    <text x="1050" y="71.4" font-size="15" font-weight="600" fill="#e8f0ee" text-anchor="middle">This week's calendar</text>
+    <rect x="932" y="295" width="236" height="90" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="1050" y="325.9" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">Week intent +</text>
+    <text x="1050" y="345.4" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">commitments,</text>
+    <text x="1050" y="364.9" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">each with a done-when</text>
+    <rect x="632" y="300" width="236" height="80" rx="12" fill="#182524" stroke="#2e4140"/>
+    <rect x="632" y="310" width="4" height="60" rx="2" fill="#2fd0b4"/>
+    <text x="750" y="325.9" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">Friday judge</text>
+    <text x="750" y="345.4" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">evidence vs. each</text>
+    <text x="750" y="364.9" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">commitment</text>
+    <rect x="332" y="300" width="236" height="80" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="450" y="335.6" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">Marks</text>
+    <text x="450" y="355.1" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">hit · partial · missed</text>
+    <rect x="32" y="295" width="236" height="90" rx="45" fill="#2fd0b4" stroke="#2fd0b4"/>
+    <text x="150" y="335.6" font-size="15" font-weight="600" fill="#04201b" text-anchor="middle">Retro +</text>
+    <text x="150" y="355.1" font-size="15" font-weight="600" fill="#04201b" text-anchor="middle">accuracy trend</text>
+  </g>
+</svg>

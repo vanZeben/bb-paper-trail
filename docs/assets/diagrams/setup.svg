@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="540" viewBox="0 0 1280 540" role="img" aria-labelledby="t d">
+  <title id="t">Paper Trail setup</title>
+  <desc id="d">You enter a role card, your name and your email, then press Figure it out. An agent with read tools infers the framework of role areas, the work split, the guardrails and the goals with their tasks. They are applied automatically, then a summary titled Here's what I figured out is shown with an Edit link on each part. Re-running Figure it out keeps the edits you made.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1214"/><stop offset="1" stop-color="#14201f"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#56706c"/></marker>
+    <marker id="arrowA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2fd0b4"/></marker>
+  </defs>
+  <rect width="1280" height="540" rx="20" fill="url(#bg)"/>
+  <g font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="48" y="44" font-size="13" font-weight="600" fill="#8fa6a2" letter-spacing="1.6">SETUP: THREE FIELDS AND ONE BUTTON</text>
+    <rect x="40" y="80" width="250" height="280" rx="16" fill="#101a1a" stroke="#263534"/>
+    <text x="60" y="110" font-size="13" font-weight="600" fill="#8fa6a2" letter-spacing="1.6">YOU GIVE</text>
+    <rect x="60" y="122" width="210" height="56" rx="28" fill="#182524" stroke="#2e4140"/>
+    <text x="165" y="155.4" font-size="15" font-weight="600" fill="#e8f0ee" text-anchor="middle">Role card</text>
+    <rect x="60" y="196" width="210" height="56" rx="28" fill="#182524" stroke="#2e4140"/>
+    <text x="165" y="229.4" font-size="15" font-weight="600" fill="#e8f0ee" text-anchor="middle">Name</text>
+    <rect x="60" y="270" width="210" height="56" rx="28" fill="#182524" stroke="#2e4140"/>
+    <text x="165" y="303.4" font-size="15" font-weight="600" fill="#e8f0ee" text-anchor="middle">Email</text>
+    <path d="M292 220 L313 220" fill="none" stroke="#56706c" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <rect x="315" y="160" width="170" height="120" rx="16" fill="#2fd0b4"/>
+    <text x="400" y="214.8" font-size="19" font-weight="700" fill="#04201b" text-anchor="middle">Figure it out</text>
+    <text x="400" y="237.9" font-size="14" font-weight="400" fill="#04201b" text-anchor="middle">an agent with</text>
+    <text x="400" y="256.1" font-size="14" font-weight="400" fill="#04201b" text-anchor="middle">read tools</text>
+    <path d="M486 220 L548 220" fill="none" stroke="#2fd0b4" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+    <rect x="550" y="80" width="300" height="360" rx="16" fill="#101a1a" stroke="#263534"/>
+    <text x="570" y="110" font-size="13" font-weight="600" fill="#8fa6a2" letter-spacing="1.6">IT INFERS</text>
+    <rect x="570" y="122" width="260" height="64" rx="12" fill="#182524" stroke="#2e4140"/>
+    <rect x="570" y="132" width="4" height="44" rx="2" fill="#2fd0b4"/>
+    <text x="700" y="159.4" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle"></text>
+    <text x="590" y="149" font-size="15.5" font-weight="600" fill="#e8f0ee">Framework</text>
+    <text x="590" y="170" font-size="13" fill="#8fa6a2">role areas and what good looks like</text>
+    <rect x="570" y="200" width="260" height="64" rx="12" fill="#182524" stroke="#2e4140"/>
+    <rect x="570" y="210" width="4" height="44" rx="2" fill="#2fd0b4"/>
+    <text x="700" y="237.4" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle"></text>
+    <text x="590" y="227" font-size="15.5" font-weight="600" fill="#e8f0ee">Work split</text>
+    <text x="590" y="248" font-size="13" fill="#8fa6a2">how your time divides</text>
+    <rect x="570" y="278" width="260" height="64" rx="12" fill="#182524" stroke="#2e4140"/>
+    <rect x="570" y="288" width="4" height="44" rx="2" fill="#2fd0b4"/>
+    <text x="700" y="315.4" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle"></text>
+    <text x="590" y="305" font-size="15.5" font-weight="600" fill="#e8f0ee">Guardrails</text>
+    <text x="590" y="326" font-size="13" fill="#8fa6a2">what to flag, and when</text>
+    <rect x="570" y="356" width="260" height="64" rx="12" fill="#182524" stroke="#2e4140"/>
+    <rect x="570" y="366" width="4" height="44" rx="2" fill="#2fd0b4"/>
+    <text x="700" y="393.4" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle"></text>
+    <text x="590" y="383" font-size="15.5" font-weight="600" fill="#e8f0ee">Goals → tasks</text>
+    <text x="590" y="404" font-size="13" fill="#8fa6a2">a starting backlog</text>
+    <path d="M852 260 L912 260" fill="none" stroke="#2fd0b4" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+    <rect x="914" y="80" width="326" height="360" rx="16" fill="#101a1a" stroke="#263534"/>
+    <text x="934" y="110" font-size="13" font-weight="600" fill="#8fa6a2" letter-spacing="1.6">THEN</text>
+    <rect x="934" y="122" width="286" height="80" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="1077" y="157.7" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">Applied automatically</text>
+    <text x="1077" y="177.2" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">no approval step</text>
+    <path d="M1077 204 L1077 238" fill="none" stroke="#56706c" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <rect x="934" y="240" width="286" height="100" rx="12" fill="#182524" stroke="#2e4140"/>
+    <rect x="934" y="250" width="4" height="80" rx="2" fill="#2fd0b4"/>
+    <text x="1077" y="275.9" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">“Here's what I figured out”</text>
+    <text x="1077" y="295.4" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">a summary of what was set,</text>
+    <text x="1077" y="314.9" font-size="15" font-weight="400" fill="#e8f0ee" text-anchor="middle">with an Edit link on each part</text>
+    <text x="1077" y="372" font-size="13.5" fill="#8fa6a2" text-anchor="middle">Edit anything, any time.</text>
+    <path d="M1077 342 L1077 470 L400 470 L400 282" fill="none" stroke="#2fd0b4" stroke-width="2" stroke-dasharray="6 5" stroke-linejoin="round" marker-end="url(#arrowA)"/>
+    <rect x="560" y="454" width="300" height="32" rx="16" fill="#182524" stroke="#2fd0b4"/>
+    <text x="710" y="475.2" font-size="14.5" font-weight="600" fill="#e8f0ee" text-anchor="middle">Re-runs keep your edits</text>
+    <text x="710" y="508" font-size="13" fill="#6f8581" text-anchor="middle">Run “Figure it out” again after a role change; what you edited stays as you set it.</text>
+  </g>
+</svg>

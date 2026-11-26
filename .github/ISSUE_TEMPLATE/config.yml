@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or idea
+    url: https://github.com/vanZeben/bb-paper-trail/discussions
+    about: Ask how something works, share a setup, or float an idea before opening an issue.
+  - name: Security problem
+    url: https://github.com/vanZeben/bb-paper-trail/security/advisories/new
+    about: Report privately. Please don't open a public issue.

@@ -1,0 +1,40 @@
+name: Bug report
+description: Something doesn't work the way the docs say it should.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. …
+        2. …
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Paper Trail and bb versions
+      description: "`bb plugin list` shows both; `bb --version` shows bb."
+      placeholder: paper-trail 0.1.0, bb 0.50.1
+    validations:
+      required: true
+  - type: input
+    id: sources
+    attributes:
+      label: Sources involved
+      description: Which sources were enabled or failing, from `bb paper-trail connectors`.
+      placeholder: calendar, github, slack…
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: "Relevant lines from `bb plugin logs paper-trail`. Remove anything private: names, ticket titles, chat text."
+      render: text

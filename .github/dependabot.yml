@@ -1,0 +1,18 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+    groups:
+      dev-dependencies:
+        dependency-type: development
+        update-types: [minor, patch]
+    ignore:
+      # The SDK is pinned to the bb version the plugin is built against; bump it with bb.
+      - dependency-name: "@get-bb/plugin-sdk"
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

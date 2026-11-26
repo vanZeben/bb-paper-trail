@@ -1,0 +1,88 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`packetMarkdown > matches the snapshot 1`] = `
+"---
+from: 2026-11-02
+to: 2026-11-13
+generated: 2026-11-16T12:00:00Z
+framework: default
+---
+# Review packet 2026-11-02 to 2026-11-13
+
+> AI-rated; your overrides applied; gaps listed.
+
+## Summary
+| Measure | Value |
+|---|---|
+| Range | 2026-11-02 to 2026-11-13 (2 weeks) |
+| Days rated | 5 (exceeds 1, meets 4, needs improvement 0) |
+| Week ratings | 2026-W45 Exceeds; 2026-W46 Exceeds |
+| Shipped | 2 |
+| Decisions and influence | 1 |
+| Helping others | 1 |
+| Recognition | 1 |
+| Work I added myself | 1 |
+| Plan hit rate | 75% |
+| My review of the ratings | 4 reviewed, 1 confirmed, 3 changed (3 raised, 0 lowered); 3 rated days unreviewed |
+
+### Scorecard by week
+| Area | 2026-W45 | 2026-W46 |
+|---|---|---|
+| Delivery | Hit | Hit |
+| Mentorship | Partial | Partial (changed by me) |
+
+## Highlights
+- 2026-W46: Recognised: Thanked for the migration ([S1110-1](https://x.slack.com/archives/C1/p3))
+- 2026-W45: Decision: Chose a queue over polling ([S1104-1](https://x.slack.com/archives/C1/p1))
+
+## Shipped
+- **Queue consumer rewrite** (2026-W45): [H1103-1](https://github.com/acme/api/pull/1)
+- **Migration tooling** (2026-W46): [H1111-1](https://github.com/acme/api/pull/2)
+
+## Influence and decisions
+- 2026-W45: Chose a queue over polling ([S1104-1](https://x.slack.com/archives/C1/p1))
+
+## Helping others
+- 2026-W45: Unblocked Sam on the migration ([S1105-1](https://x.slack.com/archives/C2/p2))
+
+## Recognition
+- 2026-W46: Thanked for the migration ([S1110-1](https://x.slack.com/archives/C1/p3))
+
+## Work I added myself
+- 2026-W46: 6 code reviews in acme/api ([H1111-1](https://github.com/acme/api/pull/2))
+
+## Time mix vs target
+Window: 4 weeks to 2026-W46. Drift score 10 points (watch).
+
+| Area | Target | Actual | Drift (points) |
+|---|---|---|---|
+| Delivery | 60% | 70% | +10 |
+| Mentorship | 40% | 30% | -10 |
+
+| Week | Days counted | Drift (points) |
+|---|---|---|
+| 2026-W45 | 5 | 10 |
+
+## Plan follow-through
+Hit rate 75% (done counts 1, partial 0.5, dropped items excluded).
+
+Carried over from earlier weeks:
+- Write ADR
+
+## Gaps in the record
+- github was failed on 1 day (2026-11-05): evidence from it may be missing
+- github was partial on 1 day (2026-11-11): evidence from it may be missing
+- 4 weekdays in the range have no captured record
+
+_An empty source is not proof of no work._
+
+## Appendix: evidence cited
+| ID | Date | Link |
+|---|---|---|
+| \`H1103-1\` | 2026-11-03 | https://github.com/acme/api/pull/1 |
+| \`S1104-1\` | 2026-11-04 | https://x.slack.com/archives/C1/p1 |
+| \`S1105-1\` | 2026-11-05 | https://x.slack.com/archives/C2/p2 |
+| \`S1110-1\` | 2026-11-10 | https://x.slack.com/archives/C1/p3 |
+| \`H1111-1\` | 2026-11-11 | https://github.com/acme/api/pull/2 |
+"
+`;

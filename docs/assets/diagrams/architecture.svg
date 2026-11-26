@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="718" viewBox="0 0 1280 718" role="img" aria-labelledby="t d">
+  <title id="t">Paper Trail module map</title>
+  <desc id="d">The tabs in components call typed RPC handlers. lib/contract.ts defines the contract, lib/handlers has one file per feature, and server.ts registers them. Handlers use lib/engine (service, rating, grid, evidence, extensions, runner and queue, plus date, time, schedule, markdown and json helpers), lib/capture (prompts for the hidden threads: sources, context, identity, jira, confluence, github, slack, meetings) and lib/features (drift, guardrails, overrides, plan, goals, threads, ghost, packet, setup, migrate). All of it stores SQLite records through lib/storage.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1214"/><stop offset="1" stop-color="#14201f"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#56706c"/></marker>
+    <marker id="arrowA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#2fd0b4"/></marker>
+  </defs>
+  <rect width="1280" height="718" rx="20" fill="url(#bg)"/>
+  <g font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <text x="48" y="40" font-size="13" font-weight="600" fill="#8fa6a2" letter-spacing="1.6">MODULE MAP</text>
+    <rect x="40" y="56" width="1200" height="102" rx="16" fill="#101a1a" stroke="#263534"/>
+    <text x="60" y="86" font-size="13" font-weight="600" fill="#8fa6a2" letter-spacing="1.6">COMPONENTS · THE TABS, IN THE BB UI</text>
+    <rect x="58" y="98" width="157" height="40" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="136.5" y="123.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">Graph</text>
+    <rect x="227" y="98" width="157" height="40" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="305.5" y="123.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">Time</text>
+    <rect x="396" y="98" width="157" height="40" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="474.5" y="123.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">Week</text>
+    <rect x="565" y="98" width="157" height="40" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="643.5" y="123.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">Threads</text>
+    <rect x="734" y="98" width="157" height="40" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="812.5" y="123.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">Review</text>
+    <rect x="903" y="98" width="157" height="40" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="981.5" y="123.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">Settings</text>
+    <rect x="1072" y="98" width="157" height="40" rx="12" fill="#182524" stroke="#2e4140" stroke-dasharray="5 4"/>
+    <text x="1150.5" y="123.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">Onboarding flow</text>
+    <text x="1140" y="148" font-size="12" fill="#6f8581" text-anchor="end">Radar in Threads · guardrails banner in Graph and Settings</text>
+    <path d="M620 154 L620 188" fill="none" stroke="#56706c" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <path d="M660 188 L660 154" fill="none" stroke="#56706c" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <text x="680" y="176" font-size="13" font-weight="600" fill="#8fa6a2">typed RPC</text>
+    <rect x="40" y="190" width="1200" height="92" rx="16" fill="#101a1a" stroke="#263534"/>
+    <text x="60" y="220" font-size="13" font-weight="600" fill="#8fa6a2" letter-spacing="1.6">LIB/HANDLERS · THE RPC CONTRACT</text>
+    <rect x="58" y="230" width="372" height="40" rx="12" fill="#182524" stroke="#2e4140"/>
+    <rect x="58" y="240" width="4" height="20" rx="2" fill="#2fd0b4"/>
+    <text x="244" y="255.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">lib/contract.ts · RpcContract, zod schemas</text>
+    <rect x="446" y="230" width="372" height="40" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="632" y="255.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">lib/handlers/* · one file per feature</text>
+    <rect x="834" y="230" width="388" height="40" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="1028" y="255.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">server.ts · registers handlers, runs the worker</text>
+    <path d="M250 284 L250 318" fill="none" stroke="#56706c" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <path d="M640 284 L640 318" fill="none" stroke="#56706c" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <path d="M1020 284 L1020 318" fill="none" stroke="#56706c" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <rect x="40" y="320" width="420" height="290" rx="16" fill="#101a1a" stroke="#263534"/>
+    <text x="60" y="350" font-size="13" font-weight="600" fill="#8fa6a2" letter-spacing="1.6">LIB/ENGINE</text>
+    <rect x="58" y="362" width="186" height="44" rx="12" fill="#182524" stroke="#2e4140"/>
+    <rect x="58" y="372" width="4" height="24" rx="2" fill="#2fd0b4"/>
+    <text x="151" y="389.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">service</text>
+    <rect x="256" y="362" width="186" height="44" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="349" y="389.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">rating</text>
+    <rect x="58" y="418" width="186" height="44" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="151" y="445.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">grid</text>
+    <rect x="256" y="418" width="186" height="44" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="349" y="445.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">evidence</text>
+    <rect x="58" y="474" width="186" height="44" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="151" y="501.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">extensions</text>
+    <rect x="256" y="474" width="186" height="44" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="349" y="501.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">runner · queue</text>
+    <rect x="58" y="530" width="384" height="38" rx="12" fill="#182524" stroke="#2e4140" stroke-dasharray="5 4"/>
+    <text x="250" y="553.7" font-size="13" font-weight="400" fill="#e8f0ee" text-anchor="middle">dates · time · schedule · markdown · json</text>
+    <rect x="480" y="320" width="250" height="290" rx="16" fill="#101a1a" stroke="#263534"/>
+    <text x="500" y="350" font-size="13" font-weight="600" fill="#8fa6a2" letter-spacing="1.6">LIB/CAPTURE</text>
+    <rect x="498" y="362" width="214" height="42" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="605" y="387.9" font-size="13.5" font-weight="400" fill="#e8f0ee" text-anchor="middle">sources · context · identity</text>
+    <rect x="498" y="414" width="214" height="42" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="605" y="439.9" font-size="13.5" font-weight="400" fill="#e8f0ee" text-anchor="middle">jira · confluence</text>
+    <rect x="498" y="466" width="214" height="42" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="605" y="491.9" font-size="13.5" font-weight="400" fill="#e8f0ee" text-anchor="middle">github · slack</text>
+    <rect x="498" y="518" width="214" height="42" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="605" y="543.9" font-size="13.5" font-weight="400" fill="#e8f0ee" text-anchor="middle">meetings · common</text>
+    <text x="605" y="596" font-size="12.5" fill="#6f8581" text-anchor="middle">prompts for the hidden threads</text>
+    <rect x="750" y="320" width="490" height="290" rx="16" fill="#101a1a" stroke="#263534"/>
+    <text x="770" y="350" font-size="13" font-weight="600" fill="#8fa6a2" letter-spacing="1.6">LIB/FEATURES/*</text>
+    <rect x="768" y="362" width="214" height="36" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="875" y="385.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">drift</text>
+    <rect x="994" y="362" width="214" height="36" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="1101" y="385.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">guardrails</text>
+    <rect x="768" y="406" width="214" height="36" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="875" y="429.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">overrides</text>
+    <rect x="994" y="406" width="214" height="36" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="1101" y="429.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">plan</text>
+    <rect x="768" y="450" width="214" height="36" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="875" y="473.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">goals</text>
+    <rect x="994" y="450" width="214" height="36" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="1101" y="473.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">threads</text>
+    <rect x="768" y="494" width="214" height="36" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="875" y="517.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">ghost</text>
+    <rect x="994" y="494" width="214" height="36" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="1101" y="517.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">packet</text>
+    <rect x="768" y="538" width="214" height="36" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="875" y="561.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">setup</text>
+    <rect x="994" y="538" width="214" height="36" rx="12" fill="#182524" stroke="#2e4140"/>
+    <text x="1101" y="561.0" font-size="14" font-weight="400" fill="#e8f0ee" text-anchor="middle">migrate</text>
+    <text x="995" y="596" font-size="12.5" fill="#6f8581" text-anchor="middle">each one: types, service, prompts, validators</text>
+    <path d="M250 612 L250 640" fill="none" stroke="#56706c" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <path d="M605 612 L605 640" fill="none" stroke="#56706c" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <path d="M995 612 L995 640" fill="none" stroke="#56706c" stroke-width="2" stroke-linejoin="round" marker-end="url(#arrow)"/>
+    <rect x="40" y="642" width="1200" height="56" rx="16" fill="#182524" stroke="#2fd0b4" stroke-width="2"/>
+    <text x="64" y="675" font-size="17" font-weight="700" fill="#e8f0ee">lib/storage</text>
+    <text x="190" y="675" font-size="14" fill="#8fa6a2">SQLite records · store.ts, db.ts, port.ts, memory.ts · the local plugin database</text>
+  </g>
+</svg>
